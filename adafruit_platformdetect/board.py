@@ -50,6 +50,7 @@ class Board:
 
     def __init__(self, detector):
         self.detector = detector
+        self.x = 1
         self._board_id = None
 
     # pylint: disable=invalid-name, protected-access, too-many-return-statements
